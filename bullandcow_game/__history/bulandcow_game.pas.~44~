@@ -1,0 +1,98 @@
+unit bulandcow_game;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.StdCtrls,
+  FireDAC.Phys.Intf, FireDAC.Stan.Option, FireDAC.Stan.Intf, FireDAC.Comp.Client;
+
+type
+  TForm1 = class(TForm)
+    Menu: TPanel;
+    Label1: TLabel;
+    Label2: TLabel;
+    Button1: TButton;
+    Button2: TButton;
+    Button3: TButton;
+    Mots: TMemo;
+    Pregle: TPanel;
+    Mmystere: TEdit;
+    Reponse: TEdit;
+    Label3: TLabel;
+    Label4: TLabel;
+    Edit3: TEdit;
+    Edit4: TEdit;
+    Edit5: TEdit;
+    Label5: TLabel;
+    Label6: TLabel;
+    Label7: TLabel;
+    Button5: TButton;
+    Button6: TButton;
+    Button7: TButton;
+    procedure Button1Click(Sender: TObject);
+    procedure Button3Click(Sender: TObject);
+    procedure Button2Click(Sender: TObject);
+    procedure Button4Click(Sender: TObject);
+    procedure Button5Click(Sender: TObject);
+    procedure MmystereChange(Sender: TObject);
+    procedure MotsChange(Sender: TObject);
+  private
+    { Déclarations privées }
+  public
+    { Déclarations publiques }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+
+{$R *.dfm}
+
+
+procedure TForm1.Button1Click(Sender: TObject);
+begin
+    if True then
+    Menu.Visible := false;
+end;
+
+procedure TForm1.Button2Click(Sender: TObject);
+begin
+ if True then
+  Pregle.Visible := true;
+end;
+
+procedure TForm1.Button3Click(Sender: TObject);
+begin
+  if True then
+  close;
+end;
+
+
+procedure TForm1.Button4Click(Sender: TObject);
+begin
+  if True then
+  Pregle.Visible := false;
+end;
+
+
+procedure TForm1.Button5Click(Sender: TObject);
+begin
+ if True then
+ Menu.Visible := true;
+end;
+
+
+procedure TForm1.MmystereChange(Sender: TObject);
+begin
+  write (Mots.text);
+end;
+
+procedure TForm1.MotsChange(Sender: TObject);
+begin
+ random (lines);
+end;
+
+end.

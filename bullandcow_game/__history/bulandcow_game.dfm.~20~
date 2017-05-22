@@ -1,0 +1,217 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 479
+  ClientWidth = 745
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label3: TLabel
+    Left = 264
+    Top = 80
+    Width = 25
+    Height = 13
+    Caption = 'Mot :'
+  end
+  object Label4: TLabel
+    Left = 242
+    Top = 155
+    Width = 64
+    Height = 13
+    Caption = 'votre choix : '
+  end
+  object Label5: TLabel
+    Left = 275
+    Top = 221
+    Width = 26
+    Height = 13
+    Caption = 'Bull : '
+  end
+  object Label6: TLabel
+    Left = 354
+    Top = 221
+    Width = 31
+    Height = 13
+    Caption = 'Cow : '
+  end
+  object Label7: TLabel
+    Left = 424
+    Top = 221
+    Width = 24
+    Height = 13
+    Caption = 'Vie : '
+  end
+  object Mots: TMemo
+    Left = 32
+    Top = 125
+    Width = 97
+    Height = 148
+    Lines.Strings = (
+      'dix'
+      'duc'
+      'laie'
+      'beau'
+      'sabre'
+      'matou'
+      'radios'
+      'voyant'
+      'scrutin'
+      'nudisme')
+    TabOrder = 0
+    Visible = False
+    OnChange = MotsChange
+  end
+  object Menu: TPanel
+    Left = 569
+    Top = 8
+    Width = 377
+    Height = 276
+    Caption = 'Menu'
+    ShowCaption = False
+    TabOrder = 1
+    object Label1: TLabel
+      Left = 136
+      Top = 16
+      Width = 88
+      Height = 13
+      Caption = 'Bull and cow game'
+    end
+    object Label2: TLabel
+      Left = 160
+      Top = 72
+      Width = 26
+      Height = 13
+      Caption = 'Menu'
+    end
+    object Button1: TButton
+      Left = 40
+      Top = 208
+      Width = 75
+      Height = 25
+      Caption = 'Jouer'
+      TabOrder = 0
+      OnClick = Button1Click
+    end
+    object Button2: TButton
+      Left = 160
+      Top = 208
+      Width = 75
+      Height = 25
+      Caption = 'r'#232'gles'
+      TabOrder = 1
+      OnClick = Button2Click
+    end
+    object Button3: TButton
+      Left = 280
+      Top = 208
+      Width = 75
+      Height = 25
+      Caption = 'Quitter'
+      TabOrder = 2
+      OnClick = Button3Click
+    end
+  end
+  object Pregle: TPanel
+    Left = 569
+    Top = 249
+    Width = 274
+    Height = 222
+    Caption = 'Pregle'
+    ShowCaption = False
+    TabOrder = 2
+    Visible = False
+    object Button4: TButton
+      Left = 96
+      Top = 168
+      Width = 75
+      Height = 25
+      Caption = 'OK'
+      TabOrder = 0
+      OnClick = Button4Click
+    end
+    object Memo2: TMemo
+      Left = 8
+      Top = 17
+      Width = 257
+      Height = 113
+      Lines.Strings = (
+        '                                       r'#232'gles'
+        ''
+        'But: trouver le mot.'
+        ''
+        'Bull: bonne lettre, bon placement'
+        ''
+        'Cow : bonne lettre, mauvais placement')
+      TabOrder = 1
+    end
+  end
+  object Mmystere: TEdit
+    Left = 312
+    Top = 77
+    Width = 121
+    Height = 21
+    Enabled = False
+    TabOrder = 3
+    OnChange = MmystereChange
+  end
+  object Reponse: TEdit
+    Left = 312
+    Top = 152
+    Width = 121
+    Height = 21
+    TabOrder = 4
+  end
+  object Edit3: TEdit
+    Left = 275
+    Top = 240
+    Width = 33
+    Height = 21
+    TabOrder = 5
+  end
+  object Edit4: TEdit
+    Left = 352
+    Top = 240
+    Width = 33
+    Height = 21
+    TabOrder = 6
+  end
+  object Edit5: TEdit
+    Left = 424
+    Top = 240
+    Width = 33
+    Height = 21
+    TabOrder = 7
+  end
+  object Button5: TButton
+    Left = 328
+    Top = 296
+    Width = 75
+    Height = 25
+    Caption = 'Menu'
+    TabOrder = 8
+    OnClick = Button5Click
+  end
+  object Button6: TButton
+    Left = 214
+    Top = 296
+    Width = 75
+    Height = 25
+    Caption = 'Rejouer'
+    TabOrder = 9
+  end
+  object Button7: TButton
+    Left = 440
+    Top = 296
+    Width = 75
+    Height = 25
+    Caption = 'valider'
+    TabOrder = 10
+  end
+end

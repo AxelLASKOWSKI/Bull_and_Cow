@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2017/05/22 15:28:16.288,=C:\Users\Axella\Documents\Embarcadero\Studio\Projets\Unit1.pas</Transaction>
+    <Transaction>2017/05/22 15:36:51.403,C:\Users\Axella\Documents\Embarcadero\Studio\Projets\bullandcow_game\bulandcow_game.pas=C:\Users\Axella\Documents\Embarcadero\Studio\Projets\Unit1.pas</Transaction>
+    <Transaction>2017/05/22 15:36:51.403,C:\Users\Axella\Documents\Embarcadero\Studio\Projets\bullandcow_game\bulandcow_game.dfm=C:\Users\Axella\Documents\Embarcadero\Studio\Projets\Unit1.dfm</Transaction>
+    <Transaction>2017/05/22 15:36:56.276,C:\Users\Axella\Documents\Embarcadero\Studio\Projets\bullandcow_game\Project4.dproj=C:\Users\Axella\Documents\Embarcadero\Studio\Projets\Project4.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
